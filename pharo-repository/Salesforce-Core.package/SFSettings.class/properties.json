@@ -1,0 +1,14 @@
+{
+	"category" : "Salesforce-Core",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"settingsDict" ],
+	"name" : "SFSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
