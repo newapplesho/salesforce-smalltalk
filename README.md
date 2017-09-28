@@ -1,4 +1,4 @@
-# salesforce-smalltalk
+# salesforce-smalltalk [![Build Status](https://travis-ci.org/newapplesho/salesforce-smalltalk.svg?branch=master)](https://travis-ci.org/newapplesho/salesforce-smalltalk)
 Salesforce API Library for Pharo Smalltalk
 
 ## Supported Smalltalk Versions
