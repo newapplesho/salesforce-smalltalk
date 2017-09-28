@@ -13,7 +13,6 @@ baseline: spec
 
 			spec package: 'Neo-JSON-Core' with: [
 				spec 
-					version: 'Neo-JSON-Core-SvenVanCaekenberghe.33';
 					repository: 'http://mc.stfx.eu/Neo'. ].
 
 			spec
