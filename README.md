@@ -16,5 +16,22 @@ Metacello new
 
 ## Setup
 
+```smalltalk
+SFSettings initialize.SFSettings default.SFSettings default username: '<Your mailaddress>'.
+"You must append the user’s security token to their password A security token is an automatically-generated key from Salesforce."SFSettings default password: '<Your password><Security token>'.
+"Sandbox"SFSettings default isSandbox: true.
+```
+
 
 ## Authentication
+
+```smalltalk
+SFClient new login.
+```
+
+## Simple Query
+
+```smalltalk
+client := SFClient new.client query: 'SELECT name FROM Account'.
+```
+

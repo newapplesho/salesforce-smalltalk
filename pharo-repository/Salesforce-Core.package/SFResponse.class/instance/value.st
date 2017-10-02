@@ -5,7 +5,7 @@ value
 		ifTrue:[ 
 			self formatType: 'xml'.
 			XMLDOMParser parse: self response contents ]
-		ifFalse:[ NeoJSONObject fromString: self response contents ].
+		ifFalse:[ self response contents ].
 
 	self response isSuccess 
 		ifTrue:[ ^ result ].
