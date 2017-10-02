@@ -1,0 +1,14 @@
+{
+	"category" : "Salesforce-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SFQuery",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

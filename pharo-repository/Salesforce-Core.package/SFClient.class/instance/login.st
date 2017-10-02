@@ -13,4 +13,4 @@ login
 	request headers headers at: 'SOAPAction' put: 'login'.
 	self client request: request.
 	self client execute.
-	^self readFromLoginResponse: self client response.
+	self readFromLoginResponse: self client response.
