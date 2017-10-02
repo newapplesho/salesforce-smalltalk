@@ -1,3 +1,3 @@
 accessing
 account
-	^ self propertyAt: (SFAccount modelName) ifAbsent: [ nil ]
+	^ self at: (SFAccount modelName) ifAbsent: [ nil ]

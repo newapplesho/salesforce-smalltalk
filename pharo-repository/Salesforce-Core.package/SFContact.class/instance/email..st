@@ -1,3 +1,3 @@
 accessing
 email: anObject
-	^ self propertyAt: #Email put: anObject
+	^ self at: #Email put: anObject

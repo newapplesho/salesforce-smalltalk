@@ -1,3 +1,3 @@
 accessing
 email
-	^ self propertyAt: #Email ifAbsent: [ '' ]
+	^ self at: #Email ifAbsent: [ '' ]

@@ -1,3 +1,3 @@
 accessing
-propertyAt: propertyName
+at: propertyName
 	^ self properties at: propertyName ifAbsent: [ ]

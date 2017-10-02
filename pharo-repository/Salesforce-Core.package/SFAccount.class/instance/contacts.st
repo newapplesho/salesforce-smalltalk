@@ -1,3 +1,3 @@
 accessing
 contacts
-	^ self propertyAt: (SFContact collectionModelName) ifAbsent: [ { } ]
+	^ self at: (SFContact collectionModelName) ifAbsent: [ { } ]

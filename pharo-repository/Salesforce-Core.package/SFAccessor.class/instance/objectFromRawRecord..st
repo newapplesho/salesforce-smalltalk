@@ -1,8 +1,9 @@
 private
 objectFromRawRecord: rawRecord
-	| attributes objectClass object |
+	| attributes objectType objectClass object |
 	attributes := rawRecord at: #attributes ifAbsent: [ Dictionary new ].
-	objectClass := self objectClassForType: (attributes at: #type).
+	objectType := attributes at: #type ifAbsent: [ ^ rawRecord ].
+	objectClass := (self objectClassForType: objectType).
 	object := objectClass new.
 	rawRecord keysAndValuesDo: [ :key :value |
 		key ~= #attributes ifTrue: [

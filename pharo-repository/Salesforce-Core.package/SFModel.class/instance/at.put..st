@@ -1,3 +1,3 @@
 accessing
-propertyAt: propertyName put: value
+at: propertyName put: value
 	^ self properties at: propertyName put: value
