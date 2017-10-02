@@ -34,3 +34,10 @@ SFClient new login.
 ```smalltalk
 client := SFClient new.client query: 'SELECT name FROM Account'.
 ```
+
+## Account and Contact Information
+
+```smalltalk
+accessor := SFAccessor new.
+accessor allAccounts: { 'Id'. 'Name' }.accessor allContacts: { 'Id'. 'Email' }.accessor allContacts: { 'Id'. 'Email' }  withAccount: { 'Id'. 'Name' }.accessor allAccounts: { 'Id'. 'Name'. } withContacts: { 'Id'. 'Email' }.
+```
