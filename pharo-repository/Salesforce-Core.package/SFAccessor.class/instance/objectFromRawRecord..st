@@ -14,7 +14,7 @@ objectFromRawRecord: rawRecord
 					ifPresent: [ :subRecords | self objectsFromRawRecords: subRecords ]
 					ifAbsent: [ self objectFromRawRecord: value ]
 			].
-			object propertyAt: key put: formattedValue.
+			object at: key put: formattedValue.
 		]
 	].
 	^ object.
