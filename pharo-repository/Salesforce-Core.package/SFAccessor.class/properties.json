@@ -1,13 +1,13 @@
 {
 	"category" : "Salesforce-Core",
 	"classinstvars" : [
-		"default" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client" ],
-	"name" : "SFClient",
+		 ],
+	"name" : "SFAccessor",
 	"pools" : [
 		 ],
 	"super" : "Object",
