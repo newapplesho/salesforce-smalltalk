@@ -41,3 +41,14 @@ client := SFClient new.client query: 'SELECT name FROM Account'.
 accessor := SFAccessor new.
 accessor allAccounts: { 'Id'. 'Name' }.accessor allContacts: { 'Id'. 'Email' }.accessor allContacts: { 'Id'. 'Email' }  withAccount: { 'Id'. 'Name' }.accessor allAccounts: { 'Id'. 'Name'. } withContacts: { 'Id'. 'Email' }.
 ```
+
+## CRUD
+<!-- "salesforce-smalltalk" supports basic "CRUD" operation for records in Salesforce. -->
+
+
+### Delete
+
+```smalltalk
+accessor := SFAccessor new.
+accessor deleteObject: '<Salesforce Object Id>' model: SFLead. 
+```

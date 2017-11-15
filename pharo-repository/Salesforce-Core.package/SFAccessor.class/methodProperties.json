@@ -7,6 +7,7 @@
 		"allContacts:" : "QuentinPlessis 10/2/2017 12:28",
 		"allContacts:withAccount:" : "QuentinPlessis 10/2/2017 13:23",
 		"client" : "QuentinPlessis 10/2/2017 10:52",
+		"deleteObject:model:" : "ShoYoshida 11/15/2017 13:54",
 		"objectClassForType:" : "QuentinPlessis 10/2/2017 11:11",
 		"objectFromRawRecord:" : "QuentinPlessis 10/2/2017 17:33",
 		"objectsFromQuery:" : "QuentinPlessis 10/2/2017 13:54",
@@ -14,4 +15,5 @@
 		"rawQuery:" : "QuentinPlessis 10/2/2017 10:57",
 		"selectModel:fields:nestedModel:nestedFields:" : "QuentinPlessis 10/2/2017 13:23",
 		"selectModel:fields:nestedModels:nestedFields:" : "QuentinPlessis 10/2/2017 13:30",
-		"selectObjectsFields:model:" : "QuentinPlessis 10/2/2017 13:31" } }
+		"selectObjectsFields:model:" : "QuentinPlessis 10/2/2017 13:31",
+		"settings" : "ShoYoshida 11/15/2017 13:24" } }
